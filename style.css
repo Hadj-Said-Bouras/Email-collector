@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('https://images.unsplash.com/photo-1561111881-1f6b7826b39d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1325&q=80');
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	margin-top: 20%;
+	font-size: 50px;
+}
+
+.click {
+	margin-left: 44%;
+	margin-top: 3%;
+}
+
+button {
+	border: none;
+	background-color: red;
+	padding: 10px;
+	border-radius: 7px;
+	font-size: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+ 	color: white;
+	
+}
+
+button:hover {
+	border: 1px solid red;
+	background: transparent;
+
+}
+ button a {
+ 	text-decoration: none;
+
+ }
